@@ -1,0 +1,18 @@
+.scr-btn {
+  box-sizing: border-box;
+  border: 1px solid var(--primary-button-border-color);
+  position: relative;
+  display: inline-block; 
+  font-weight: 600; 
+  border-radius: 5px; 
+}
+
+.scr-button-action {    
+    padding:0.25rem 0.5rem;
+    background-color: var(--primary-button-background);
+    color: var(--primary-button-color);    
+    box-shadow: 0 1px 3px var(--primary-button-shadow-color);
+}
+.scr-button-action:hover {
+    background-color: #005cf1;   /*contrast ratio >4.5 at least: */
+}
